@@ -1,0 +1,79 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.App h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.wallet-address {
+  font-size: 16px;
+  color: #fff;
+}
+
+#startMatching {
+  font-size: 2rem;
+  padding: 20px 40px;
+  margin-top: 20px;
+}
+
+#backToLobby {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+#game {
+  background-color: #d2b48c; /* 밝은연한갈색 */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.leaderboard-container {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
+
+thead {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
